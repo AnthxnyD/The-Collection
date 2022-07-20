@@ -1,0 +1,17 @@
+.Card {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #8d0000;
+  margin: 10px auto;
+  left: 0;
+  right: 0;
+  border-radius: 3px;
+  background: rgb(245, 0, 0);
+  box-shadow: 0px 0px 5px #D4D4D4;
+}
+
+.Card-image {
+  background-image: url(/The-Collection/assets/Pictures/TupacShakur.jpg);
+  background-size: cover;
+  aspect-ratio: 50/50;
+}/*# sourceMappingURL=style.css.map */
