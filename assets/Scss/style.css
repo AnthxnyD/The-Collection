@@ -9,10 +9,12 @@
   background: rgb(255, 255, 255);
   box-shadow: 0px 0px 5px #D4D4D4;
 }
-.Card-image {
-  background-image: url(/The-Collection/assets/Pictures/TupacShakur.jpg);
+.Card-Pictures {
+  
   background-size: cover;
   aspect-ratio: 50/50;
+  max-height: ;
+  
 }
 .Card-Gender {
   padding: 5px;
@@ -28,4 +30,5 @@
 .Card-Description {
   text-align: center;
   margin: 5px;
+
 }/*# sourceMappingURL=style.css.map */
