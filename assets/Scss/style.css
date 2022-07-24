@@ -1,25 +1,43 @@
+body {
+  background-color: #363062;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .Card {
   width: 300px;
   height: 550px;
-  border: 3px solid #8d0000;
+  color: #F3F1F5;
+  border: 3px solid #3F3351;
   margin: 15px auto;
   left: 0;
   right: 0;
   border-radius: 3px;
-  background: rgb(255, 255, 255);
-  box-shadow: 0px 0px 5px #D4D4D4;
+  background: #1F1D36;
+  box-shadow: 0px 0px 5px #4D4C7D;
 }
 .Card-Pictures {
-  
+  background-image: url(/The-Collection/assets/Pictures/TupacShakur.jpg);
   background-size: cover;
-  aspect-ratio: 50/50;
-  max-height: ;
-  
+  height: 50%;
 }
 .Card-Gender {
   padding: 5px;
-  background-color: yellow;
   margin-left: 15px;
+}
+.Card-Gender .genre {
+  background-color: #FFF338;
+  color: #1F1D36;
+  margin-right: 7px;
+}
+.Card-Gender .Hip-hop {
+  background-color: #0CECDD;
 }
 .Card-Title {
   margin-left: 15px;
@@ -28,7 +46,10 @@
   margin-left: 15px;
 }
 .Card-Description {
-  text-align: center;
-  margin: 5px;
-
+  text-align: left;
+  margin: 16px;
+}
+.Card-link {
+  margin: -25px;
+  margin-left: 35%;
 }/*# sourceMappingURL=style.css.map */

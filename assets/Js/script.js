@@ -5,31 +5,35 @@ const collection = [
       releaseDate: "13 février 1996",
       picture:"assets/Pictures/TupacShakur.jpg",
       genre: ["Hip-hop", "Gangsta rap"],
-      
+      YTB:"https://www.youtube.com/watch?v=pDTFR7ivvgE&list=PLNvnh4cN6-ATtLWZMdVVkEwms-srSDCAz",
+      Describtion:"All Eyez on Me est le quatrième album studio du rappeur américain 2Pac,C'est son premier album sorti chez Death Row Records, et le dernier sorti de son vivant",
     },
     {
         name: "UMLA",
         artiste: "Alpha Wann",
         releaseDate: "21 septembre 2018",
         picture:"assets/Pictures/AlphaOne.jpg",
-        genre: ["Hip-hop/Rap", "French Rap"],
-        
+        genre: ["Hip-hop", "French Rap"],
+        YTB:"https://www.youtube.com/watch?v=mAvY1GCAWF8&list=PLmJ0A4zWruuQasH5rT9Koee5jUlghVnPg",
+        Describtion:"UNE MAIN LAVE L'AUTRE, également abrégé par le nom U.M.L.A, est le premier album studio du rappeur parisien Alpha Wann",
       },
       {
         name: "JVLIVS II",
         artiste: "SCH",
         releaseDate: "19 mars 2021",
         picture:"assets/Pictures/JVLIVSII.jpg",
-        genre: ["Hip-hop/Rap", "French Rap"],
-       
+        genre: ["Hip-hop", "French Rap"],
+        YTB:"https://www.youtube.com/watch?v=2RG6ptXUcqg&list=PLSBWvYm8t6ualGSaRcO3e2MBYUUsGwo-d",
+        Describtion:"JVLIVS II est le 5ᵉ album studio du rappeur français SCH sorti le 19 mars 2021, sous les labels Maison Baron Rouge et Rec. 118",
       },
       {
         name: "LMF",
         artiste: "Freeze Corleone",
         releaseDate: "11 septembre 2020",
         picture:"assets/Pictures/FreezeCorleone.jpg",
-        genre: ["Hip-hop/Rap", "French Rap"],
-        
+        genre: ["Hip-hop", "French Rap"],
+        YTB:"https://www.youtube.com/watch?v=_Zey1wgfA-c&list=PLl-Ug_hNzpDCVNPAToLmf666iH7XOY3jl",
+        Describtion:"Septième projet solo et premier album de Freeze Corleone. Le nom de l'album fait référence au premier épisode de la saga Star Wars.",
       },
       {
         name: "Members Only, Vol. 4",
@@ -37,7 +41,8 @@ const collection = [
         releaseDate: "23 janvier 2019",
         picture:"assets/Pictures/MembersOnlyVol4.jpg",
         genre: ["Hip-hop"],
-        
+        YTB:"https://www.youtube.com/watch?v=kdDMnkv39Ok&list=PLi8Tviz5IBjDFHslVQuENx4AajGbpSFgF",
+        Describtion:"Members Only, Vol. 4 est le seul album studio du collectif de hip-hop américain Members Only, dirigé et présenté par XXXTentacion",
       },
       {
         name: "Meet the Woo 2",
@@ -45,7 +50,8 @@ const collection = [
         releaseDate: "7 février 2020",
         picture:"assets/Pictures/PopSmoke.jpg",
         genre: ["Hip-hop"],
-        
+        YTB:"https://www.youtube.com/watch?v=o3huN9z7-EM&list=PLQFLn45emZu1EWGwi39oR1JFyoeJHsXHv",
+        Describtion:"Pop Smoke a été abattu à l’âge de 20 ans lors d’une invasion de domicile. Les invités de la mixtape incluent Quavo, A Boogie wit da Hoodie, …",
       },
       {
         name: "CHOMP 2",
@@ -53,7 +59,8 @@ const collection = [
         releaseDate: "8 décembre 2021",
         picture:"assets/Pictures/CHOMP2.jpg",
         genre: ["Hip-hop", "Variété"],
-        
+        YTB:"https://www.youtube.com/watch?v=HfgEbne-nBU",
+        Describtion:"Russell Vitale, connu sous le nom de scène Russ, est un rappeur, compositeur et producteur américain. Il est notamment connu pour ses titres What They Want.",
       },
       {
         name: "Look at Me: The Album",
@@ -61,23 +68,26 @@ const collection = [
         releaseDate: "10 juin 2022",
         picture:"assets/Pictures/LookAtMe.jpg",
         genre: ["Hip-hop","RAP US"],
-        
+        YTB:"https://www.youtube.com/watch?v=h3r9myZYADc&list=PLM4hC1K8qdh3VMjWGZvz8ZnKcfRakyhYX",
+        Describtion:"L'Album est une compilation du rappeur américain XXXTentacion . L’album a été annoncé en même temps qu’un documentaire du même nom.",
       },
       {
         name: "V",
         artiste: "Vald",
         releaseDate: "4 février 2022",
-        picture:"assets/Pictures/PopSmoke.jpg",
-        genre: ["Hip-hop/Rap", "French Rap"],
-        
+        picture:"assets/Pictures/V.jpg",
+        genre: ["Hip-hop", "French Rap"],
+        YTB:"https://www.youtube.com/watch?v=_y7Gd3uHGag&list=PLlNAJiTxpOtam4A7_6N3E3s3GphCN1CNq",
+        Describtion:"V est le quatrième album studio du rappeur français Vald sorti le 4 février 2022 , Il fait suite à Ce monde est cruel sorti le 11 octobre 2019 .",
       },
       {
         name: "Poésie d'une pulsion",
         artiste: "B.B Jacques",
         releaseDate: "2 février 2022",
         picture:"assets/Pictures/PoesiePulsion.jpg",
-        genre: ["Hip-hop/Rap", "French Rap"],
-        
+        genre: ["Hip-hop", "French Rap"],
+        YTB:"https://www.youtube.com/watch?v=PcF9xOtrFhY&list=PLGCpsz3N4vYt-ymSgTlnbTtSneZbmHt5r",
+        Describtion:"Moins de cinq mois après la sortie de son premier album La nuit sera calme, l'artiste annonce Poésie d'une pulsion dans son single ( Vague à l'âme)",
       },
   ];
 
@@ -89,101 +99,39 @@ collection.forEach((result, idx) => {
   // Construct card content
   const content = `  
   <div class="Card">           
-  <div class="Card-Pictures">  
-  <img src="${result.picture}" alt="">
-  </div>
+  
+  <div class="Card-Pictures" style="background-image: url(${result.picture})"></div>
+  
   <div class="Card-Gender">
-      <span class = "genre"> ${collection[1].genre[0]} </span>
+    ${result.genre.map(function(cequejeveux){
+        return`<span class = "genre ${cequejeveux}"> ${cequejeveux} </span>`
+        console.log(cequejeveux);
+    }).join(" ")
+}
+      
       
   </div>
   <div class="Card-Title">
-      <h3>Album :</h3>
-      ${result.name}
+      <p>Album :  ${result.name}</p>
+     
   </div>
   <div class="Card-Artiste">
-      <h3>Artiste :</h3>
-      ${result.artiste}
+      <p>Artiste : ${result.artiste}</P>
   </div>
+
   <div class="Card-Description">
-      <p>TEST BLABLABLA LOREM IPSUM</p>
-      ${result.releaseDate}
+
+      <p> ${result.Describtion}</p>
+
+      <p>Date de sortie : ${result.releaseDate}</p>
+  </div>
+  <div class="Card-link">
+  
+  <a href="${result.YTB}" target="_blank"><img src="assets/Pictures/YTB.png" alt="Youtube logo" width="85px"></a>
+  
   </div>
   </div>`;
 
   // Append newyly created card element to the container
   container.innerHTML += content;
 })
-  /*
-  for (let elements of collection){
-    let card = `
-            <div class="card">
-                <div class="card__image" style="background-image: url(${elements.picture})"></div>
-                <div class="card__content">
-                    <div class="card__genre">
-                        <span class="genre">${elements.genre[0]}</span>
-                        <span class="genre--2">${elements.genre[1]}</span>
-                        <span class="genre--3">${elements.genre[2]}</span>
-                    </div>
-                    <div class="card__name">
-                        <h2 class="card__title">${elements.name}</h2>
-                    </div>
-                    <div class="card__director">
-                        <p>${elements.director}</p>
-                    </div>
-                        <div class="card__cast">
-                        <p>${elements.cast[0]}</p>
-                        <p>${elements.cast[1]}</p>
-                        <p>${elements.cast[2]}</p>
-                    </div>
-                    <div class="card__releaseYear">
-                        <p>${elements.releaseYear}</p>
-                    </div>
-                </div>
-            </div>`;
-    document.getElementById('main').insertAdjacentHTML("beforeend", card);
-} 
-  
-
-    /*
-    <div class="card">
-    <div >
-      <div class="card-body">
-        <img src="${result.picture}" alt="">
-        <h3> Genre: ${result.genre}</h3>
-        <h2>Tiltle: ${result.name}</h2>
-        <p>Author: ${result.artiste}</p>
-        <p>Year of release: ${result.releaseDate}</p>
-    
-        ...
-      </div>
-    </div>
-  </div>
-
-
-
-    for(let i = 0; i< collection.length; i++){
-
-    let Card = `  
-    <div class="Card">           
-    <div class="Card-image">  
-
-    </div>
-    <div class="Card-Gender">
-        <span class = "genre"> ${collection[i].genre[0]} </span>
-        
-        
-    </div>
-    <div class="Card-Title">
-        <h3>Album :</h3>
-    </div>
-    <div class="Card-Artiste">
-        <h3>Artiste :</h3>
-    </div>
-    <div class="Card-Description">
-        <p>TEST BLABLABLA LOREM IPSUM</p>
-    </div>
-    </div>`;
-    
-    document.getElementById('main').insertAdjacentHTML("beforeend", Card)
-  }
-  */
