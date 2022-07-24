@@ -33,6 +33,7 @@ body {
 }
 .Card-Gender .genre {
   background-color: #FFF338;
+  border-radius: 2px;
   color: #1F1D36;
   margin-right: 7px;
 }
