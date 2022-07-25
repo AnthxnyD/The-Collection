@@ -1,8 +1,17 @@
+* {
+    //margin: 0;
+    //padding: 0;
+    
+    //list-style: none;
+    //line-height: 1.5;
+  }
+
 body{
 
 background-color: #363062;
 
 }
+
 #container{
 
     width: 60%;
@@ -13,7 +22,26 @@ background-color: #363062;
     
 }
 
+.header {
+    width: 60%;
+    margin: auto;
+    display: flex;
+   
+    align-items: center;
+    .center2{
+        width: 380px;
+        margin: auto;
 
+    }
+  }
+ 
+  @media screen and (max-width: 480px) {
+    .header .center2 {
+        width: 185px;
+       
+    }
+  }
+  
 .Card{
     width: 300px;
     height: 550px;
@@ -25,15 +53,13 @@ background-color: #363062;
     border-radius: 3px;
     background: #1F1D36;
     box-shadow: 0px 0px 5px #4D4C7D;
+ 
     &-Pictures{
 
         
-
-        
-        background-image: url(/The-Collection/assets/Pictures/TupacShakur.jpg);
         background-size: cover;
         height: 50%;
-       
+        align-items: center ;
         }
     &-Gender{
         padding: 5px;
@@ -50,9 +76,10 @@ background-color: #363062;
             
         }
         &:nth-child(2){
-        
+            margin-left: 0px;
            // background-color: gray
-
+           box-shadow: 0px 0px 3px #4D4C7D;
+           margin-bottom: 0.9px;
         }
         .Hip-hop{
 
@@ -81,5 +108,6 @@ background-color: #363062;
         margin-left: 35%;
 
     }
+
 }
 
