@@ -44,19 +44,19 @@ background-color: #363062;
   
 .Card{
     width: 300px;
-    height: 550px;
+    height: 590px;
     color:#F3F1F5;
     border: 3px solid #3F3351;
     margin: 15px auto;
     left: 0;
     right: 0;
-    border-radius: 3px;
+    border-radius: 15px;
     background: #1F1D36;
     box-shadow: 0px 0px 5px #4D4C7D;
  
     &-Pictures{
-
-        
+        border-radius: 15px;
+        margin-bottom: 15px;
         background-size: cover;
         height: 50%;
         align-items: center ;
@@ -70,9 +70,10 @@ background-color: #363062;
 
         .genre{
             background-color: #FFF338; 
+            padding: 5px;
             border-radius: 2px;
             color:#1F1D36;
-            margin-right: 7px;
+            margin: 7px;
             
         }
         &:nth-child(2){
